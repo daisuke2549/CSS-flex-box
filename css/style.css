@@ -36,6 +36,12 @@ body{
 .container {
   display: flex;
 }
+nav{
+    background-color:tomato;
+    width:200px;
+    order:-1;
+}
+
 
 header {
     background: pink;
