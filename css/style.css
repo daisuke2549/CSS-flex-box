@@ -2,16 +2,16 @@ body{
     max-width: 500px;
 }
 
-
+/* 
 .container {
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     flex-basis: auto;
     /* flex-direction: column-reverse;  */
-  }
+  /* } */ 
   
-  .box {
+  /* .box {
     width: 100px;
     margin:20px;
     height: 100px;
@@ -30,4 +30,28 @@ body{
   
   .box3 {
     background: tomato;
+  } */
+
+
+.container {
+  display: flex;
+}
+
+header {
+    background: pink;
   }
+  
+
+main {
+  background: skyblue;
+  flex: 2;
+}
+
+aside {
+  background: orange;
+  width: 200px;
+}
+
+footer {
+  background: silver;
+}
